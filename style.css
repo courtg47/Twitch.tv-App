@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+
+/*Twitch.tv logo*/
+.twitch {
+  height: 40%;
+  width: 40%;
+}
+
+/*applied to all logos from jquery*/
+.logo-size {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+/*applied to div containing all followers*/
+.info {
+  background-color: #6B3E83;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 30px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+/*Placement of display name & status within div*/
+.words {
+  margin-top: 60px;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 20px;
+}
+
+/*"Logo", "Display Name", "Status" heading the rows*/
+.row-head {
+  color: black;
+  margin-top: -2%;
+}
+
+/*Status of FreeCodeCamp*/
+#fcc-status {
+  margin-top: 7%;
+  margin-right: 8%;
+  font-size: 30px;
+  color: white;
+}
+
+#fcc-status:hover {
+  color: red;
+}
+
+/*FreeCodeCamp logo image*/
+.fcc {
+  margin-left: 20%;
+}
